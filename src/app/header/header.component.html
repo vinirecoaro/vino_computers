@@ -5,11 +5,11 @@
     <div class="container-menu">
         <nav class="main-header__menu">
             <ul>
-                <li><a>Produtos</a></li>
+                <li><a routerLink="/produtos">Produtos</a></li>
                 <li>
-                    <a><i class="fa-solid fa-cart-shopping"></i>
+                    <a routerLink="/carrinho"><i class="fa-solid fa-cart-shopping"></i>
                         Carrinho
-                        <span class="badge-carrinho">{{carrinhoService.obtemCarrinho().lenght}}</span>
+                        <span class="badge-carrinho">{{carrinhoService.obtemCarrinho().length}}</span>
                     </a>
                 </li>
                 <li>
